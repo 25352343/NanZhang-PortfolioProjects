@@ -67,6 +67,18 @@ The analysis follows a top-down strategic logic:
 
 Each step builds on the conclusions of the previous one.
 
+## Data Availability & Technical Scope
 
+Due to data governance and security constraints,
+all transaction and marketing data used in this project
+are queried directly within Alibaba Cloud environments.
+
+- SQL queries are executed in MaxCompute
+- Results are reviewed online
+- Raw data and CSV exports are not permitted
+
+This setup reflects real-world conditions in
+enterprise analytics, consulting projects,
+and internal strategy teams.
 
 
